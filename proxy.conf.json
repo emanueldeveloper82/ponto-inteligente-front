@@ -1,0 +1,7 @@
+{
+ "/api": {
+   "target": "https://ponto-eletronico1.herokuapp.com",
+   "secure": false
+ }
+}
+

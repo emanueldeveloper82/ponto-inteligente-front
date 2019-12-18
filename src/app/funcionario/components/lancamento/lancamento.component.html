@@ -1,0 +1,59 @@
+<form [formGroup]="form" novalidate>
+
+<div fxLayoutAlign="center">
+  <mat-list>
+
+    <mat-list-item fxLayoutAlign="center">
+      <a mat-button color="warn" routerLink="/funcionario/listagem">
+        Ver lançamentos
+      </a>
+    </mat-list-item>
+
+    <mat-list-item>
+      <strong>Data:</strong> &nbsp; {{dataAtual}}
+    </mat-list-item>
+    <mat-list-item>
+         <strong>Localização:</strong> &nbsp;
+          <!-- {{geoLocation}} &nbsp; -->
+        <a target="_blank" *ngIf="geoLocation"
+          [href]="obterUrlMapa()">
+          Abrir Mapa
+        </a>
+    </mat-list-item>
+
+    <mat-list-item>
+      <mat-form-field style="width: 100%">
+        <textarea matInput placeholder="Descrição" formControlName="descricao">
+        </textarea>
+      </mat-form-field>
+    </mat-list-item>
+
+    <mat-list-item fxLayoutAlign="center" *ngIf="exibirInicioTrabalho()" >
+      <button mat-raised-button color="primary"
+              (click)="iniciarTrabalho()">
+        Iniciar Trabalho
+      </button>
+    </mat-list-item>
+    <mat-list-item fxLayoutAlign="center" *ngIf="exibirInicioAlmoco()" >
+      <button mat-raised-button color="primary"
+                (click)="iniciarAlmoco()">
+        Iniciar Almoço
+      </button>
+    </mat-list-item>
+    <mat-list-item fxLayoutAlign="center" *ngIf="exibirTerminoAlmoco()" >
+      <button mat-raised-button color="primary"
+                  (click)="terminarAlmoco()">
+          Terminar Almoço
+      </button>
+    </mat-list-item>
+    <mat-list-item fxLayoutAlign="center" *ngIf="exibirTerminoTrabalho()" >
+      <button mat-raised-button color="primary"
+            (click)="terminarTrabalho()">
+        Terminar Trabalho
+      </button>
+    </mat-list-item>
+
+  </mat-list>
+
+</div>
+</form>
