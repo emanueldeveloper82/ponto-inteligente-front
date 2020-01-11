@@ -1,27 +1,43 @@
-# PontoInteligente
+# Ponto Eletronico App
+>App Ponto Eletrônico
+>[Angular CLI] version 8.3.22. 
+>Link do projeto no Firebase: https://ponto-eletronico-app.firebaseapp.com/
+>OBS: Demora um pouco devido ao back-end estar no heroku gratuitamente.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+> 1 - Criar um usuário PJ que será o admin da empresa 
+> 2 - Criar os funcionários PF's que irão bater o ponto.
 
-## Development server
+## 🤝 Contributions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<table>
+  <tr>  	
+  	<td align="center">
+  		<a href="https://github.com/emanueldeveloper82/">
+  			<img src="https://avatars3.githubusercontent.com/u/31600150?s=460&v=4" width="75px;" alt="Emanuel Baêa"/>
+  			<br/>
+  			<sub>
+  				<b>Emanuel Developer</b>
+  			</sub>
+  		</a>
+  		  <br/>
+  		<a href="https://github.com/emanueldeveloper82/ponto-inteligente-front/commits?author=emanueldeveloper82" title="Code">
+  		   💻
+  		</a>
+	</td>
+  </tr>
+</table>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Author
 
-## Build
+🇧🇷 *** Emanuel da Anunciação Silva ***
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+👤 – [Linkedin](https://www.linkedin.com/in/emanuel-silva-05743b84/) <br/>
+🌐 – [E-mail](emanuel.developer82@gmail.com) <br/>
+🎱 – [Github](https://github.com/emanueldeveloper82) 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📝 License
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright © 2019 [@emanueldeveloper](https://github.com/emanueldeveloper82).<br />
+This project is [MIT](https://github.com/emanueldeveloper82/ponto-inteligente-front/blob/master/LICENSE) licensed.
